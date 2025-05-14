@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion - Internet CAFE Go</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            padding-top: 2rem;
+        }
+
+        header, .promotion-header, main {
+            max-width: 1000px;
+            margin: 0 auto 1rem auto;
+            padding: 0 1rem;
+        }
+
+        .header-widget, .promotion-widget {
+            background-color: white;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+        }
+
+        .site-title {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            list-style: none;
+            padding: 0;
+        }
+
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+        }
+
+        .main-content {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+        }
+
+        .promotion-widget h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .promotion-categories {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #ddd;
+        }
+
+        .sidebar {
+            align-self: start;
+        }
+
+        .widget {
+            background-color: white;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            margin-bottom: 2rem;
+        }
+
+        .widget h3 {
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .widget-image {
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .widget-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid #ddd;
+        }
+
+        .widget-list {
+            list-style: none;
+        }
+
+        .widget-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .widget-list a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+
+        @media (max-width: 768px) {
+            header, .promotion-header, main {
+                padding: 0 1rem;
+            }
+
+            .content-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .main-nav {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-widget">
+            <div class="site-title">
+                <img src="Images/logo.png" alt="CAFE Go Logo" class="site-logo">
+                <h1>Internet CAFE Go</h1>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="production.html">Production</a></li>
+                    <li><a href="promotion.html">Promotion</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li>
+                        <form class="search-form">
+                            <input type="search" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="promotion-header">
+        <div class="promotion-widget">
+            <h2>Promotion</h2>
+            <p style=color:darkgreen;" class="promotion-categories">All Promotion / Logos / Banners / Backgrounds / Posters <br>  Name Plates / Photos / Sound Design / Money and Print / Documentation</p>
+            <img src="Images/banner.jpg" alt="Internet CAFE Go Banner" class="banner-image">
+            
+        </div>
+    </div>
+
+
+    <main>
+        <div class="content-wrapper">
+            <article class="main-content">
+                <h2>Logos</h2>
+                <div class="promotion-images" style="display: flex; flex-direction: column; gap: 2rem; margin: 2rem 0;">
+                    <div class="image-container">
+                        <img src="Images/Logo1.png" alt="Promotion Image 1" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Logo Development and Display Options</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/Logo2.png" alt="Promotion Image 2" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Final Development Spread</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/Logo3.png" alt="Promotion Image 3" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Chosen Logo Alternate</p>
+                    </div>
+                </div>
+
+                <h2>Banners</h2>
+                <div class="banner-images" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">
+                    <div class="image-container">
+                        <img src="Images/banner.jpg" alt="Banner Image 1" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Website Banner Option #1</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/banner2.jpg" alt="Banner Image 2" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Website Banner Option #2</p>
+                    </div>
+                </div>
+
+                <h2>Posters</h2>
+                <div class="poster-images" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">
+                    <div class="image-container">
+                        <img src="Images/Poster1.jpg" alt="Poster Image 1" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Promotional Poster Design #1</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/Poster2.jpg" alt="Poster Image 2" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Promotional Poster Design #2</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/Poster3.png" alt="Poster Image 3" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Promotional Poster Design #3</p>
+                    </div>
+                </div>
+
+                <h2>Name Tags</h2>
+                <div class="nametag-images" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">
+                    <div class="image-container">
+                        <img src="Images/Nametag1.png" alt="Name Tag Design" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Staff Name Tag Design</p>
+                    </div>
+                </div>
+
+                <h2>Photos</h2>
+                <div class="photo-images" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">
+                    <div class="image-container">
+                        <img src="Images/Photo1.jpg" alt="Photo 1" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Photo Promotion #1</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/Photo2.jpg" alt="Photo 2" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Photo Promotion #2</p>
+                    </div>
+                </div>
+
+                <h2>Sound Design</h2>
+                <div class="sound-design" style="display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem;">
+                    <div class="image-container">
+                        <audio id="cafeAudio" src="Audio/CASINO 2.mp3"></audio>
+                        <img 
+                            src="Images/Sound1.png" 
+                            alt="Sound Design" 
+                            style="width: 100%; height: auto; border: 1px solid #ddd; cursor: pointer;" 
+                            onclick="toggleAudio('cafeAudio')"
+                        >
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Cafe Ambience Sound Design (Click to Play/Pause)</p>
+                    </div>
+                </div>
+
+                <script>
+                    function toggleAudio(audioId) {
+                        const audio = document.getElementById(audioId);
+                        if (audio.paused) {
+                            audio.play();
+                        } else {
+                            audio.pause();
+                            audio.currentTime = 0;
+                        }
+                    }
+                </script>
+
+                <h2>Currency Development</h2>
+                <div class="currency-images" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1rem;">
+                    <div class="image-container">
+                        <img src="Images/production-tall.jpg" alt="Currency Design 1" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Currency Fraud & Development</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/production-tall2.png" alt="Currency Design 2" style="width: 100%; height: auto; border: 1px solid #ddd;">
+                        <p style="text-align: right; margin-top: 0.5rem; color: #666; font-size: 0.9rem;">Currency Interacted with During Event</p>
+                    </div>
+                </div>
+            </article>
+
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>Quick Links</h3>
+                    <ul class="widget-list">
+                        <li><a href="#social">Social Media</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#press">Press Kit</a></li>
+                    </ul>
+                </div>
+                
+                <div class="widget">
+                    <h3>Follow Us</h3>
+                    <div class="widget-image">
+                        <img src="Images/promotion-qr.jpg" alt="QR Code">
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3>Contact</h3>
+                    <ul class="widget-list">
+                        <li><a href="#email">Email Us</a></li>
+                        <li><a href="#social">Social Media</a></li>
+                        <li><a href="#location">Location</a></li>
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <h3>Pages</h3>
+                    <ul class="widget-list">
+                        <li><a href="production.html">Production</a></li>
+                        <li><a href="promotion.html">Promotion</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <h3>Find us</h3>
+                    <div class="widget-image">
+                        <img src="Images/placeholder-2.png" alt="Find us">
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2004 Internet CAFE Go. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
