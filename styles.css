@@ -271,3 +271,20 @@ footer {
         padding-left: 0.2rem;
     }
 } 
+.new-gallery-widget {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+}
